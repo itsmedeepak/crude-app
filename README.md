@@ -1,4 +1,7 @@
 # CRUDE app
+
+
+
 ## Project Overview 💁
 
 > It is a backend project for database managment using MongoDB, EJS. In this project Basic operation in MongoDB like creating, deleting, updating, reading the date from database server. Using API to fetch/send the data from the server
@@ -47,7 +50,37 @@ Several quick start options are available:
 - Open Your preffered browser and go through
 - `http://localhost:3000/`
 
+
+<br>
+<br>
+
+
+
+
+
+
+
+<img src = "https://github.com/itsmedeepak/crude-app/blob/main/crude_app/assets/Screenshot%20from%202021-08-04%2014-22-07.png"  width= "100%">
+
+
+
+
+
+
+
+<br>
+<br>
+
+
+
+
+
+
 <h1 align="center"> 🙏 Thank You !! </h1>
+
+
+<br>
+<br>
 
 <p align = "right" >🎯 created by Deepak kumar 🥰</p>
 
