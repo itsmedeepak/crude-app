@@ -1,0 +1,38 @@
+<!--Include-Header-->
+<%- include('include/_header') %>
+
+
+    <div class="container">
+        <div class="box-new-user" id="new-user">
+            <div class="new-usr-btn">
+                <a href="/add-user" class="new-user-text">New User <i class='bx bxs-user'></i></a>
+            </div>
+        </div>
+        <div class="data-table">
+            <form method="POST">
+                <table class="main-container">
+                    <div class="isx">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th class="tr-nav">ID</th>
+                                <th class="tr-nav">Name</th>
+                                <th class="tr-nav">Email</th>
+                                <th class="tr-nav">Gender</th>
+                                <th class="tr-nav">Status</th>
+                                <th class="tr-nav">Action</th>
+                            </tr>
+                        </thead>
+                    </div>
+                    <tbody class="tbody-main">
+                        
+                        <%- include('include/_show') %>
+                    </tbody>
+                </table>
+            </form>
+            
+        </div>
+    </div>
+
+
+    <!--Include-Footer-->
+    <%- include('include/_footer') %>

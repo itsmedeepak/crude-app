@@ -1,0 +1,29 @@
+<!--Include-Header-->
+<%- include('include/_header') %>
+
+    <!--Body-->
+    <div class="container">
+        <div class="box-new-user" id="new-user">
+            <div class="new-usr-btn">
+                <a href="/" class="new-user-text">>> All User </a>
+            </div>
+        </div>
+        <div class="new-user">
+            <div class="sing-up-heading">
+                <h2 class="new__usr">New User</h2>
+                <p class="sign-up-des">Use the below form to update an account</p>
+            </div>
+            
+            <!--Form Handelling-->
+
+            <%- include('include/_form') %>
+
+            <div class="sing-up-heading">
+                <p>Already a user? <a href="#" class="create-ac">Log in</a> </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Include-Footer-->
+<%- include('include/_footer') %>

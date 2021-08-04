@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Exo+2:ital,wght@1,300&family=Libre+Franklin:wght@200&display=swap');
+
+/*
+font-family: 'Comfortaa', cursive;
+font-family: 'Exo 2', sans-serif;  this one for more accurate
+font-family: 'Libre Franklin', sans-serif;
+*/
+:root{
+    --theme-color1:#0cad37;
+    --theme-color2:#8c19ff;
+    --text-color:#030f01;
+    --icon-color:#0a3bc2;
+    
+    --font-fam-normal:'Libre Franklin', sans-serif;
+    --font-fam-head: 'Comfortaa', cursive;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Comfortaa', cursive;
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+.header-top{
+    
+    height: 70px;
+    background-color: var(--theme-color1);
+    width: 100%;
+    
+}
+.text-nav{
+    
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+.heading-top{
+    color: white;
+    font-weight: 850;
+    font-size: 1.3rem;
+}
+
+.container{
+    width: 80%;
+    
+    margin-left: 10%;
+    
+}
+.box-new-user{
+    padding: 20px 0px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+}
+.new-usr-btn{
+    text-align: center;
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px rgb(0,0,0,0.1);
+    
+}
+.main-container{
+    width: 100%;
+}
+.thead-dark{
+    text-align: center;
+    font-weight: 600;
+    
+    
+}
+thead{
+    background-color: var(--text-color);
+}
+.tr-nav{
+    color: white;
+    padding: 15px 0px;
+}
+
+.tbody-main{
+    text-align: center;
+    font-weight: 550;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.bxs-pencil, .bx-x{
+    color:white;
+    width: 40%;
+    font-size: 1.5rem;
+    background-color: var(--theme-color1);
+    padding: 4px 0px;
+    border-radius: 4px;
+}
+
+
+footer{
+  
+    height: 50px;
+    background-color: var(--theme-color1);
+    text-align: center;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    
+    
+}
+.ft-text{
+    font-weight: 650;
+}
+.bx-copyright{
+    font-size: 1rem;
+    margin-top: 7px;
+}
+
+/*Sign-up*/
+
+.new-user{
+    padding: 0px 10px;
+    font-weight: 600;
+
+}
+.new__usr{
+    color: var(--theme-color1);
+}
+.sign-up-des{
+    color: rgba(0, 0, 0, 0.473);
+}
+.create-ac{
+    color: var(--theme-color1);
+}
+.sing-up-heading{
+    text-align: center;
+    line-height: 12px;
+}
+.form-group{
+    display: flex;
+    padding: 15px 0;
+    
+}
+.form-group input{
+    padding: 12px 15px;
+}
+.form-name, .form-email{
+    padding: 10px 0px;
+    
+}
+.update-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--theme-color1);
+    color: white;
+    font-weight: 600;
+    border:none;
+    width: 60%;
+    box-shadow: 4px 4px 4px rgb(0,0,0,0.1);
+}
+.form-btn{
+    justify-content: center;
+}
+.form-group input{
+    outline: none;
+    border-radius: 5px;
+    border-color: var(--theme-color1);
+    box-shadow: 4px 4px 4px rgb(0,0,0,0.1);
+}
+.sign-up-container{
+
+    width: 40%;
+    margin-left: 30%;
+}
+.up-sign{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.radio-btn{
+
+    padding: 0px 6%;
+}
+.form-gender, .form-status{
+    margin-top: 3px;
+}
+/*  
+border: 2px solid blue;
+*/
+@media only screen and (max-width:786px) {
+    
+    .tbody-main, .thead-dark{
+        font-size: 0.8rem;
+    }
+    .bx-x, .bxs-pencil{
+        font-size: 1rem;
+    }
+    .container{
+        width: 95%;
+        margin-left: 1%;
+        padding: 0px 5px;
+    }
+    .box-new-user{
+        font-size: 1rem;
+    }
+    .heading-top{
+        font-size: 1.1rem;
+    }
+    .ft-btm, .bx-copyright{
+        font-size: 0.8rem;
+    }
+    .new-usr-btn{
+        width: 100px;
+        padding: 10px 14px;
+    }
+    .tr-nav{
+        padding: 7px 0px;
+    }
+    .sign-up-container{
+        
+        width: 100%;
+        margin-left: 0;
+    }
+    .bxs-pencil, .bx-x{
+        width: 25px;
+    }
+}
+/*  
+border: 2px solid blue;
+*/

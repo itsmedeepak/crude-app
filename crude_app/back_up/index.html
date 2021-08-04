@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>CRUD Application</title>
+</head>
+
+<body>
+
+    <!--Header-->
+    <header class="header-top">
+        <nav>
+            <div class="nav-container">
+                <div class="text-nav">
+                    <a href="#" class="heading-top">User Management System</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Body-->
+    <div class="container">
+        <div class="box-new-user" id="new-user">
+            <div class="new-usr-btn">
+                <a href="" class="new-user-text">New User <i class='bx bxs-user'></i></a>
+            </div>
+        </div>
+        <div class="data-table">
+            <form method="POST">
+                <table class="main-container">
+                    <div class ="isx">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th class="tr-nav">ID</th>
+                                <th class="tr-nav">Name</th>
+                                <th class="tr-nav">Email</th>
+                                <th class="tr-nav">Gender</th>
+                                <th class="tr-nav">Status</th>
+                                <th class="tr-nav">Action</th>
+                            </tr>
+                        </thead>
+                    </div>
+                    <tbody class="tbody-main">
+                        <tr class="table-row">
+                            <td class="td-row">1</td>
+                            <td class="td-row">Deepak Kumar</td>
+                            <td class="td-row">Deepak8804375275@gmail.com</td>
+                            <td class="td-row">Male</td>
+                            <td class="td-row">Active</td>
+                            <td class="td-row">
+                                <span class="tr-icons">
+                                    <i class='bx bxs-pencil'></i>
+                                    <i class='bx bx-x'></i>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer class="ft-btm">
+        <div class="ft-text">
+            <p class="copyright"><i class='bx bx-copyright'></i> itsmedeepak</p>
+
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+<% for(var i=0;i<users.length; i++) {%> 
+<tr class="table-row">
+    <td class="td-row"><%= i+1 %> </td>
+    <td class="td-row"><%= users[i].name  %>  </td>
+    <td class="td-row"><%= users[i].email  %></td>
+    <td class="td-row"><%= users[i].gender %></td>
+    <td class="td-row"><%= users[i].status  %></td>
+    <td class="td-row">
+        <span class="tr-icons">
+            <a href="/update-user?id=<%= users[i]._id%> "><i class='bx bxs-pencil'></i></a>
+            <a href="/api/users/:id=<%= users[i]._id%> "> <i class='bx bx-x'></i></a>
+        </span>
+    </td>
+</tr>
+<% } %> 
